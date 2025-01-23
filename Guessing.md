@@ -5,7 +5,7 @@ B --> C{"Is number correct"}
 C -- Yes --> D["Congratulation you win"]
 D --> E["Do you want to play again"]
 E --> A
-C -- NO --> F["Tell player higher or lower]
+C -- NO --> F["Tell player higher or lower"]
 F --> B 
 ```
 
