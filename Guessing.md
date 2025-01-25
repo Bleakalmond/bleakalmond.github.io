@@ -1,12 +1,12 @@
 ``` Mermaid
-*flowchart TD*
+flowchart TD
 *A(["Number is picked 1-100"]) --> B(["Player enters number"])
 B --> C{"Is number correct"}
 C -- Yes --> D["Congratulation you win"]
 D --> E["Do you want to play again"]
 E --> A
 C -- NO --> F["Tell player higher or lower"]
-F --> B 
+F --> B
 ```
 
 ## Number guessing game ##
