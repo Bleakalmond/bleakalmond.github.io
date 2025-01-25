@@ -1,5 +1,6 @@
 ``` Mermaid
 flowchart TD
+Start([Start]) --> End([End])
 *A(["Number is picked 1-100"]) --> B["Player enters number"]
 B --> C{"Is number correct"}
 C -- Yes --> D(["Congratulation you win"])
