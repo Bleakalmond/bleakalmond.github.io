@@ -1,12 +1,13 @@
 ``` Mermaid
 flowchart TD
-    A[Number is picked 1-100] -->B(Player enters number)
-    B --> C{Is number correct?}
-    C -->Yes-->D[Congratulations you win]
-    D -->E[Do you want to play again]
-    E -->A
-    C--> NO -->F[Tell player higher or lower]
-    F--> B
+    A["Number is picked 1-100"] --> B("Player enters number")
+    B --> C{"Is number correct?"}
+    C --> Yes["Yes"] & NO["NO"]
+    Yes --> D["Congratulations you win"]
+    D --> E["Do you want to play again"]
+    E --> A
+    NO --> F["Tell player higher or lower"]
+    F --> B
 ```
 
 ## Number guessing game ##
